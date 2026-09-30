@@ -2,6 +2,9 @@
 
 Stage a distributed firewall from one NSX Global Manager onto another without turning the rules on.
 
+License: GPL-3.0. Built and proved out for [essential.coach](https://essential.coach).
+Full write-up: [Moving NSX DFW Between Global Managers Without Turning the Rules On](https://essential.coach/nsx-dfw-between-global-managers/)
+
 VCF does not manage Global Manager lifecycle when federation spans two instances. This tool is the manual half: export, plan, apply. Policies are staged disabled. An API 200 is not realization proof.
 
 ## Run
